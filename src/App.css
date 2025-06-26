@@ -2,7 +2,9 @@ body {
   background-color: #f9f8fe;
 }
 .App {
-  text-align: center;
+  max-width: 980px;
+  padding: 60px 20px 100px;
+  margin: 0 auto;
 }
 
 .App-header {
@@ -17,5 +19,12 @@ body {
 
 .App-footer {
   text-align: center;
-  margin: 30px 0;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 40px 15px 60px;
+  }
 }

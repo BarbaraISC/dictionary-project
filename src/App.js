@@ -12,7 +12,32 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer className="App-footer">Coded by Bárbara Silva</footer>
+        <footer className="App-footer">
+          This project was coded by{" "}
+          <a
+            href="https://github.com/BarbaraISC"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bárbara Silva
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/BarbaraISC/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://dictionary-project-bsilva.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
